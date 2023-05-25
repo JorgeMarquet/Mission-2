@@ -1,0 +1,45 @@
+header {
+  text-align: center;
+  background-color: #a50000;
+  padding: 1px;
+  color: white;
+}
+
+main {
+  background-color: #f0f0f0;
+}
+
+main div {
+  display: flex;
+  justify-content: center;
+}
+
+div img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  margin: 20px 20px;
+  padding: 0px;
+  border-radius: 20px;
+  filter: grayscale(100%);
+  transition: all 200ms ease-in-out;
+}
+
+/* main div {
+  display: none;
+} */
+
+/*to check animation name and duration*/
+div img:hover {
+  filter: grayscale(0%);
+  animation-name: colorise;
+  animation-duration: 10s;
+  transform: scale(1.05);
+}
+
+/* Animation to apply upon clicking javascript */
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
