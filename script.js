@@ -90,3 +90,5 @@ const speedy = document.querySelector(".gonzalez");
 speedy.addEventListener("click", function () {
   hideOtherImages(speedy);
 });
+
+//comment for Github
