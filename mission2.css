@@ -52,7 +52,6 @@ div img:hover {
 .description {
   text-align: left;
   margin: 10px 300px 30px 300px;
-  /* background-color: blue; */
   padding: 20px;
   font-size: 20px;
   line-height: 1.7;
@@ -60,11 +59,10 @@ div img:hover {
 
 button {
   font-size: 17px;
-  background-color: rgba(0, 0, 255, 0.692);
   color: white;
   border-radius: 20px;
-  padding: 9px;
+  padding: 11px;
   cursor: pointer;
+  display: none;
+  background-color: rgba(64, 64, 230, 0.922);
 }
-
-/*comment for Github*/
