@@ -5,13 +5,13 @@ body {
 
 header {
   text-align: center;
-  background-color: #a50000;
+  background-color: #dd3333;
   padding: 1px;
   color: white;
 }
 
 main section {
-  background-color: #f0f0f0;
+  background-color: #3a3a3a;
 }
 
 main div {
@@ -28,6 +28,7 @@ div img {
   border-radius: 20px;
   filter: grayscale(100%);
   transition: all 200ms ease-in-out;
+  border-color: black;
 }
 
 /*to check animation name and duration*/
